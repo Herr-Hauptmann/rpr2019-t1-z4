@@ -19,8 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="725cb45e-ff1b-4203-b7a0-9c69ac8d93e2" name="Default Changelist" comment="Implementirane osnovne metode u klasama Artikl, Korpa i Supermarket">
-      <change beforePath="$PROJECT_DIR$/rpr2019-t1-z4.iml" beforeDir="false" afterPath="$PROJECT_DIR$/rpr2019-t1-z4.iml" afterDir="false" />
+    <list default="true" id="725cb45e-ff1b-4203-b7a0-9c69ac8d93e2" name="Default Changelist" comment="Dodani osnovni testovi za klasu Korpa">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/ba/unsa/etf/rpr/KorpaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/ba/unsa/etf/rpr/KorpaTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +72,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.All in rpr2019-t1-z4">
+  <component name="RunManager" selected="JUnit.KorpaTest.getArtikli">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ba.unsa.etf.rpr.Main" />
       <module name="rpr2019-t1-z4" />
@@ -85,15 +86,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -106,8 +105,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="KorpaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="rpr2019-t1-z4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ba.unsa.etf.rpr.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ba.unsa.etf.rpr" />
+      <option name="MAIN_CLASS_NAME" value="ba.unsa.etf.rpr.KorpaTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KorpaTest.getArtikli" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="rpr2019-t1-z4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ba.unsa.etf.rpr.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ba.unsa.etf.rpr" />
+      <option name="MAIN_CLASS_NAME" value="ba.unsa.etf.rpr.KorpaTest" />
+      <option name="METHOD_NAME" value="getArtikli" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.KorpaTest.getArtikli" />
+        <item itemvalue="JUnit.KorpaTest" />
         <item itemvalue="JUnit.All in rpr2019-t1-z4" />
         <item itemvalue="Application.Main" />
       </list>
@@ -122,7 +154,7 @@
       <option name="presentableId" value="Default" />
       <updated>1604073069678</updated>
       <workItem from="1604073070874" duration="3637000" />
-      <workItem from="1604674837352" duration="1194000" />
+      <workItem from="1604674837352" duration="1958000" />
     </task>
     <task id="LOCAL-00001" summary="Implementirane osnovne metode u klasama Artikl, Korpa i Supermarket">
       <created>1604076721477</created>
@@ -131,7 +163,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604076721477</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Dodani osnovni testovi za klasu Korpa">
+      <created>1604676620501</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1604676620501</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -151,7 +190,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Implementirane osnovne metode u klasama Artikl, Korpa i Supermarket" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implementirane osnovne metode u klasama Artikl, Korpa i Supermarket" />
+    <MESSAGE value="Dodani osnovni testovi za klasu Korpa" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dodani osnovni testovi za klasu Korpa" />
   </component>
   <component name="WindowStateProjectService">
     <state x="163" y="0" key="#Project_Structure" timestamp="1604675845448">
@@ -162,34 +202,34 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1604076302824" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1604076738891">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1604677113952">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1604076738891" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1604076738890">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1604677113952" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1604677113951">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1604076738890" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1604076738890">
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1604677113951" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1604677113951">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1604076738890" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1604076738891">
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1604677113951" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1604677113951">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1604076738891" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1604076728045">
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1604677113951" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1604676623609">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1604076728045" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1604676623609" />
     <state x="387" y="256" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1604676016914">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="387" y="256" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1366.728@0.0.1366.728" timestamp="1604676016914" />
-    <state x="843" y="105" width="469" height="499" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1604675978934">
+    <state x="843" y="105" width="469" height="499" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1604676522016">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="843" y="105" width="469" height="499" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.728@0.0.1366.728" timestamp="1604675978934" />
+    <state x="843" y="105" width="469" height="499" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.728@0.0.1366.728" timestamp="1604676522016" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1604676312345">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
